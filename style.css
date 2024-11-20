@@ -1,0 +1,58 @@
+#header {
+    background-color: rgb(221, 167, 96);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", sans-serif;
+    text-transform: uppercase;
+}
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+#contact {
+    list-style-type: none;
+}
+#contact i {
+    width: 30px;
+    color: rgb(221, 167, 96);
+}
+#socialmedia {
+    list-style-type: none;
+}
+#socialmedia i {
+    width: 20px;
+}
+#git {
+    color: black;
+}
+#face {
+    color: blue;
+}
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap:20px ;
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3 {
+    font-family: "Hubballi", sans-serif;
+    padding: 5px;
+}
+.card {
+    font-family: Montserrat;
+    border: 1px solid rgb(221, 167, 96);
+    border-radius: 15px;
+    padding: 20px;
+}
